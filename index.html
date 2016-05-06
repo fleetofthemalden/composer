@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Bizzy Compose</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="I made a drag and drop thing with angular" />
+		<meta name="keywords" content="bizzy drag and drop Dixon Minnick" />
+		<link rel="stylesheet" href="bizzy.css" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" type="image/vnd.microsoft.icon" />
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+		<script src="compose.js"></script>
+	</head>
+	<body>
+		<noscript>
+         <h1>¯\_(ツ)_/¯</h1>
+      </noscript>
+		<div class="app" ng-app="Compose">
+			<div class="compose-controller" ng-controller="ComposeController">
+				<textarea id="BizzyComposeBox"></textarea>
+			</div>
+			<!-- make an element draggable -->
+<div x-lvl-draggable='true'>drag me!</div>
+ 
+<div x-lvl-drop-target='true' x-on-drop='dropped(dragEl, dropEl)'>drop zone</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+	padding-left: 30px;
+	padding-right: 30px;
+   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+   background-color: #666;
+   box-sizing: border-box;
+   margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.app {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lvl-over {
+    border: 2px dashed black !important;
+  }
+ 
+  .lvl-target {
+    background-color: #ddd; 
+    opacity: .5;
+  }
+ 
+  [draggable] {
+    cursor: move;
+  }
